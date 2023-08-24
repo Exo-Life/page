@@ -1,0 +1,307 @@
+.shop {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.shop__producto {
+	width: 45%;
+	height: 90%;
+	border-radius: 10px;
+	border: 20px solid rgba(255, 255, 255, 0.37);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color:  rgba(255, 255, 255, 0.37);
+}
+
+input[type="color"] {
+	appearance: none;
+	border: none;
+	padding: 3px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+input[type="color"]:focus {
+	outline: none;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	border: none;
+	padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+	border-radius: 50%;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper:hover {
+	transform: scale(1.1);
+	transition: transform 0.3s ease-in-out;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper:active {
+	transform: scale(0.9);
+	transition: transform 0.3s ease-in-out;
+}
+
+select {
+	appearance: none;
+	background-color: #ffffff86;
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-size: 16px;
+	color: #333;
+	cursor: pointer;
+	width: fit-content;
+}
+
+select:focus {
+	outline: none;
+	border-color: #66afe9;
+	box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+}
+
+select::after {
+	content: "\25BC";
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	color: #aaa;
+	pointer-events: none;
+}
+
+select:focus::after {
+	color: #66afe9;
+}
+
+.shop__image {
+	width: 90%;
+	height: fit-content;
+	display: grid;
+	place-items: center;
+}
+
+.shop__image img {
+	width: 100%;
+}
+
+.shop__info {
+	width: 100%;
+}
+
+.shop__personalizar {
+	width: 100%;
+	height: fit-content;
+	background: rgba(0, 0, 0, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: "Roboto" sans-serif;
+}
+
+.shop__nombreProducto {
+	width: 60%;
+}
+
+.shop__nombreProducto h2 {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 30px;
+}
+
+.shop__personalizarProducto {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.shop__personalizarProducto button {
+	font-family: 'Exo 2', sans-serif;
+	padding: 4px 25px;
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	opacity: .7;
+	transition: 0.3s ease all;
+}
+
+.shop__personalizarProducto button:hover {
+	opacity: 1;
+}
+
+.shop__talla {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 3px;
+}
+
+.shop__color {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 3px;
+}
+
+.shop__carrito {
+	width: 45%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.shop__carrito h2 {
+	font-family: "Exo 2", sans-serif;
+	font-size: 30px;
+
+}
+
+.shop__lista {
+	display: grid;
+	place-items: center;
+	margin: 10px;
+	width: 100%;
+	height: 60%;
+	background: rgba(0, 0, 0, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.shop__listaContenido {
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.shop__tarjeta {
+	margin: 10px 0;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #00000094;
+	color: #ffffffe0;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+.shop__tarjeta span {
+	font-family: "Exo 2", sans-serif;
+	font-size: 20px;
+
+}
+
+.shop__tarjetaInfo {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+}
+
+.shop__tarjetaColor {
+	width: 65px;
+	height: 65px;
+	margin: 0 20px;
+	border: 5px solid #0000008a;
+	border-radius: 50px;
+}
+
+.shop__comprar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 90%;
+	height: fit-content;
+}
+
+.shop__form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.shop__input {
+	width: 100%;
+	height: 20%;
+	margin: 7px 0;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #000;
+	padding: 10px;
+	font-size: 16px;
+	background-color: transparent;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+
+.shop__input::placeholder {
+	color: #00000088;
+}
+
+.shop__precio {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	height: 70%;
+}
+
+.shop__precio p {
+	font-family: "Exo 2", sans-serif;
+	text-overflow: clip;
+	margin: 5px;
+}
+
+.shop__precio button {
+	font-family: 'Exo 2', sans-serif;
+	padding: 4px 25px;
+	margin: 10px 0;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	opacity: .7;
+	transition: 0.3s ease all;
+}
+
+.shop__precio button:hover {
+	opacity: 1;
+}
+
+.shop__letrero {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+	font-family: "Roboto", sans-serif;
+}

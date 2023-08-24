@@ -1,0 +1,111 @@
+.contact {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.contact__circle {
+	position: absolute;
+	width: 1200px;
+	height: 1200px;
+	background-color: #00000011;
+	border-radius: 50%;
+	bottom: 10%;
+	left: -10%;
+}
+
+.contact h2 {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 30px;
+}
+
+.contact__form {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	height: 60%;
+	background: rgba(0, 0, 0, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	z-index: 500;
+}
+
+.contact__form button {
+	font-family: 'Exo 2', sans-serif;
+	padding: 4px 25px;
+	margin: 10px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	opacity: .7;
+	transition: 0.3s ease all;
+
+}
+
+.contact__form button:hover {
+	opacity: 1;
+}
+
+.contact__input {
+	width: 70%;
+	height: fit-content;
+
+}
+
+.contact__input input {
+	width: 100%;
+	height: 25%;
+	margin: 7px 0;
+	padding: 7px;
+	border: none;
+	border-bottom: 2px solid #000;
+	padding: 10px;
+	font-size: 16px;
+	background-color: transparent;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+
+.contact__input input::placeholder {
+	color: #000000b7;
+}
+
+.contact__image {
+	z-index: 500;
+	margin: 20px;
+	width: 40%;
+	height: 90%;
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: .2s ease-in all;
+}
+
+.contact__image img:hover {
+	width: 105%;
+	height: 105%;
+	object-fit: cover;
+}
