@@ -11,10 +11,10 @@ const Header = () => {
 			<h1>EXO-LIFE</h1>
 		</div>
 		<div className='header__sections'>
-			<a href='#main'>Home</a>
-			<a href='#about'>About Us</a>
-			<a href='#shop'>Shop</a>
-			<a href='#contact'>Contact</a>
+			<a href='#main'>Principal</a>
+			<a href='#about'>Nosotros</a>
+			<a href='#shop'>Tienda</a>
+			<a href='#contact'>Contáctanos</a>
 		</div>
 	</div>
   )

@@ -24,7 +24,7 @@ const Contact = () => {
 		<div className='contact' id="contact">
 			<div class="contact__circle"></div>
 			<div className='contact__form'>
-				<h2>Contactanos:</h2>
+				<h2>Contáctanos:</h2>
 				<div className='contact__input'>
 					<input type='text' placeholder='Nombre' value={form.name} onChange={(e) => setForm({ ...form, name: e.value })} />
 					<input type='text' placeholder='E-mail' value={form.email} onChange={(e) => setForm({ ...form, email: e.value })} />

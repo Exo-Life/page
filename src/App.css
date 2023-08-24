@@ -2,8 +2,8 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: rgb(140,237,143);
-    background: linear-gradient(0deg, rgba(140,237,143,1) 0%, rgba(101,179,176,1) 100%);
+    background: rgb(140, 237, 143);
+    background: linear-gradient(0deg, rgba(140, 237, 143, 1) 0%, rgba(101, 179, 176, 1) 100%);
 }
 
 .app__content {
@@ -13,8 +13,8 @@
 }
 
 .app::-webkit-scrollbar-thumb {
-  border: 5px solid transparent;
-  border-radius: 100px;
-  background-color: #8070d4;
-  background-clip: content-box;
+    border: 5px solid transparent;
+    border-radius: 100px;
+    background-color: #8070d4;
+    background-clip: content-box;
 }

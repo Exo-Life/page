@@ -12,7 +12,7 @@ const About = () => {
         <div className='about__box'>
           <h2>Misión</h2>
           <p>
-            Construir y distribuir prótesis exoesqueleticas de manera más económica para la
+            Construir y distribuir prótesis exoesqueléticas de manera más económica para la
             población de los estratos 3, 4 y 5 de Colombia.
           </p>
         </div>
