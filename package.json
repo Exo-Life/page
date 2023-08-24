@@ -1,6 +1,6 @@
 {
   "name": "exo-life",
-  "homepage":  "http://Exo-Life.github.io/",
+  "homepage":  "http://Exo-Life.github.io/exolife",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
