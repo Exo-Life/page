@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/exolife/static/css/main.b0d467c4.css",
+    "main.js": "/exolife/static/js/main.f651d99a.js",
+    "static/js/787.76f88ba6.chunk.js": "/exolife/static/js/787.76f88ba6.chunk.js",
+    "static/media/logo.png": "/exolife/static/media/logo.66c1e584845248456482.png",
+    "static/media/protesis.jpg": "/exolife/static/media/protesis.2a0f29545cd6ce37242a.jpg",
+    "static/media/product_tr.png": "/exolife/static/media/product_tr.b49280bf0894a42c589e.png",
+    "index.html": "/exolife/index.html",
+    "main.b0d467c4.css.map": "/exolife/static/css/main.b0d467c4.css.map",
+    "main.f651d99a.js.map": "/exolife/static/js/main.f651d99a.js.map",
+    "787.76f88ba6.chunk.js.map": "/exolife/static/js/787.76f88ba6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0d467c4.css",
+    "static/js/main.f651d99a.js"
+  ]
+}
