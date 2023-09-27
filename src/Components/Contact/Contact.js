@@ -33,7 +33,7 @@ const Contact = () => {
 				<button onClick={(e) => send(e)}>ENVIAR</button>
 			</div>
 			<div className='contact__image'>
-				<img src={protesis} />
+				<img src={protesis} alt="Imagen de referencia"/>
 			</div>
 		</div>
 	)
