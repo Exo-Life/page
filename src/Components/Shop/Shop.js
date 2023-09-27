@@ -5,7 +5,7 @@ import imagen from './product_tr.png'
 import CloseIcon from '@mui/icons-material/Close'
 
 const Shop = () => {
-	const precio = 859200
+	const precio = 955200
 	
 	const [ shop, setShop ] = useState([])
 	const [ producto, setProducto ] = useState({
