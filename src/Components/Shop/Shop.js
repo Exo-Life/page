@@ -44,7 +44,7 @@ const Shop = () => {
 		<div className='shop' id='shop'>
 			<div className='shop__producto'>
 				<div className='shop__image'>
-					<img src={imagen} />
+					<img src={imagen} alt="Imagen de referencia"/>
 				</div>
 				<div className='shop__info'>
 					<div className='shop__personalizar'>
