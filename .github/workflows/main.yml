@@ -13,6 +13,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v4
+    - run: git config --global user.name "Exo-life"
+    - run: git config --global user.email "marianareyesospina@gmail.com"
     - run: npm install 
     - run: npm run deploy
 
