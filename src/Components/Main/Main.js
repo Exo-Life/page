@@ -23,10 +23,10 @@ const Main = () => {
 		<div className='main__follow'>
 				<h3>Siguenos</h3>
 				<div className='main__social'>
-     	            <a href="https://x.com/DONEEEEEWEEN?t=1KR2mSDhBByg7qFT5R_AUQ&s=09">
+     	            <a href="https://x.com/DONEEEEEWEEN?t=1KR2mSDhBByg7qFT5R_AUQ&s=09" target='_blank'>
 						<TwitterIcon className='main__icon'/>
                     </a>
-                    <a href="https://instagram.com/exo___life?igshid=YTQwZjQ0NmI0OA==">
+                    <a href="https://instagram.com/exo___life?igshid=YTQwZjQ0NmI0OA==" target='_blank'>
 						<InstagramIcon className='main__icon'/>
                     </a>
 				</div>
