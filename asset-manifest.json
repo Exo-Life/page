@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/page/static/css/main.b0d467c4.css",
-    "main.js": "/page/static/js/main.577ca4a5.js",
+    "main.js": "/page/static/js/main.e40f9955.js",
     "static/js/787.76f88ba6.chunk.js": "/page/static/js/787.76f88ba6.chunk.js",
     "static/media/logo.png": "/page/static/media/logo.66c1e584845248456482.png",
     "static/media/protesis.jpg": "/page/static/media/protesis.2a0f29545cd6ce37242a.jpg",
     "static/media/product_tr.png": "/page/static/media/product_tr.b49280bf0894a42c589e.png",
     "index.html": "/page/index.html",
     "main.b0d467c4.css.map": "/page/static/css/main.b0d467c4.css.map",
-    "main.577ca4a5.js.map": "/page/static/js/main.577ca4a5.js.map",
+    "main.e40f9955.js.map": "/page/static/js/main.e40f9955.js.map",
     "787.76f88ba6.chunk.js.map": "/page/static/js/787.76f88ba6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0d467c4.css",
-    "static/js/main.577ca4a5.js"
+    "static/js/main.e40f9955.js"
   ]
 }
