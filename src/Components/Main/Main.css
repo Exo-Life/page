@@ -135,3 +135,9 @@
 	text-align: center;
 	margin: 10px;
 }
+.main__social a {
+	color: #000;
+}
+.main__social:visited a {
+	color: #000;
+}	
