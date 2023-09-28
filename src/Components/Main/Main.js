@@ -23,8 +23,12 @@ const Main = () => {
 		<div className='main__follow'>
 				<h3>Siguenos</h3>
 				<div>
-					<TwitterIcon className='main__icon' href="https://x.com/DONEEEEEWEEN?t=1KR2mSDhBByg7qFT5R_AUQ&s=09"/>
-					<InstagramIcon className='main__icon' href="https://instagram.com/exo___life?igshid=YTQwZjQ0NmI0OA=="/>
+	  <a href="https://x.com/DONEEEEEWEEN?t=1KR2mSDhBByg7qFT5R_AUQ&s=09">
+					<TwitterIcon className='main__icon'/>
+	  </a>
+	  <a href="https://instagram.com/exo___life?igshid=YTQwZjQ0NmI0OA==">
+					<InstagramIcon className='main__icon'/>
+	  </a>
 				</div>
 			</div>
 		<div className='main__link'>
