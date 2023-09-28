@@ -22,7 +22,7 @@ const Main = () => {
 		</div>
 		<div className='main__follow'>
 				<h3>Siguenos</h3>
-				<div>
+				<div classNamw='main__social'>
 	                          <a href="https://x.com/DONEEEEEWEEN?t=1KR2mSDhBByg7qFT5R_AUQ&s=09">
 					<TwitterIcon className='main__icon'/>
 	                          </a>
