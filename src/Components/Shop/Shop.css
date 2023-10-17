@@ -5,6 +5,7 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
+	position: relative;
 }
 
 .shop__producto {
@@ -242,36 +243,15 @@ select:focus::after {
 	height: fit-content;
 }
 
-.shop__form {
-	display: flex;
-	flex-direction: column;
-	width: 50%;
-}
-
-.shop__input {
-	width: 100%;
-	height: 20%;
-	margin: 7px 0;
-	padding: 10px;
-	border: none;
-	border-bottom: 2px solid #000;
-	padding: 10px;
-	font-size: 16px;
-	background-color: transparent;
-	color: #000000;
-	font-family: 'Roboto', sans-serif;
-	outline: none;
-}
-
-.shop__input::placeholder {
-	color: #00000088;
-}
 
 .shop__precio {
-	width: 40%;
+	width: 100%;
+	height: fit-content;
 	display: flex;
-	flex-direction: column;
 	height: 70%;
+	justify-content: space-around;
+	align-items: center;
+	
 }
 
 .shop__precio p {
@@ -282,7 +262,9 @@ select:focus::after {
 
 .shop__precio button {
 	font-family: 'Exo 2', sans-serif;
-	padding: 4px 25px;
+	width: 50%;
+	height: fit-content;
+	padding: 10px 25px;
 	margin: 10px 0;
 	background-color: #000;
 	color: #fff;
@@ -304,4 +286,149 @@ select:focus::after {
 	display: grid;
 	place-items: center;
 	font-family: "Roboto", sans-serif;
+}
+
+.shop__pay {
+    background: rgb(140, 237, 143);
+    background: linear-gradient(0deg, rgba(140, 237, 143, 1) 0%, rgba(101, 179, 176, 1) 100%);
+	background-color: #fff;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+}
+
+.shop__cerrarComprar {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.shop__form {
+	margin: 0px 10px;
+	width: 30%;
+	height: 85%;
+	display: flex;
+	flex-direction: column;
+}
+
+.shop__form h2 {
+	font-family: "Exo 2", sans-serif;
+	font-size: 20px;
+}
+
+.shop__pedido {
+	margin: 0px 10px;
+	width: 45%;
+	height: 85%;
+}
+
+.shop__pedido h2 {
+	font-family: "Exo 2", sans-serif;
+	font-size: 30px;
+}
+
+.shop__input {
+	width: 100%;
+	margin: 7px 0;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #000;
+	padding: 5px;
+	font-size: 16px;
+	background-color: transparent;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+
+.shop__input::placeholder {
+	color: #00000088;
+}
+
+.shop__identificacion {
+	display: flex;
+	flex-direction: column;	
+	font-family: "Roboto" sans-serif;
+}
+
+.shop__envio {
+	display: flex;
+	flex-direction: column;	
+	font-family: "Roboto" sans-serif;
+}
+
+.shop__pago {
+	display: flex;
+	flex-direction: column;	
+	font-family: "Roboto" sans-serif;
+}
+
+.shop__pago div {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: "Roboto" sans-serif;
+}
+
+.shop__pago label {
+	font-family: "Roboto" sans-serif;
+	margin: 5px;
+}
+
+.shop__inputPago {
+	width: 60%;
+	margin: 7px 0;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #000;
+	padding: 5px;
+	font-size: 16px;
+	background-color: transparent;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+
+.shop__inputPago::placeholder {
+	color: #00000088;
+}
+
+.shop__pagarBotones {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+}
+
+.shop__pagarBotones button {
+	font-family: 'Exo 2', sans-serif;
+	width: 25%;
+	height: fit-content;
+	padding: 10px 25px;
+	margin: 10px 0;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	opacity: .7;
+	transition: 0.3s ease all;
+}
+
+.shop__pagarBotones button:hover {
+	opacity: 1;
+}
+
+.shop__listaContenidoPedido {
+	width: 100%;
+	height: 80%;
+	padding: 10px;
+	overflow-y: scroll;
 }

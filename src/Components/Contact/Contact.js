@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import  React, { useState } from 'react'
 
 import "./Contact.css"
 import protesis from "./protesis.jpg"
