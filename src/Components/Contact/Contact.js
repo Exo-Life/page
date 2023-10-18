@@ -1,7 +1,7 @@
 import  React, { useState } from 'react'
 
 import "./Contact.css"
-import protesis from "./protesis.jpg"
+import protesis from "./mano_protesis.png"
 
 const Contact = () => {
 

@@ -86,7 +86,7 @@ select:focus::after {
 }
 
 .shop__image {
-	width: 90%;
+	width: 50%;
 	height: fit-content;
 	display: grid;
 	place-items: center;

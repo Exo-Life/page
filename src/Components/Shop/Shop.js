@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { CSSTransition } from 'react-transition-group'
 import Snackbar from '@mui/material/Snackbar';
 import "./Shop.css"
-import imagen from './product_tr.png'
+import imagen from './exo-protesis.png'
 
 import CloseIcon from '@mui/icons-material/Close'
 

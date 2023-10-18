@@ -10,6 +10,7 @@
 	color: #fff;
 	padding: 80px 0;
 	font-family: "Roboto", sans-serif;
+	overflow: hidden;
 }
 
 .about h2 {
@@ -23,7 +24,6 @@
 
 .about__header h1 {
 	font-size: 36px;
-	margin-bottom: 10px;
 }
 
 .about__header p {
@@ -37,12 +37,20 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 40px;
-	max-width: 1200px;
-	margin-top: 40px;
+	width: 50%;
+}
+
+.about__container {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+
 }
 
 .about__box {
-	flex: 1;
+	width: 40%;
+	height: fit-content;
 	padding: 20px;
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 15px;
@@ -60,6 +68,29 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #ccc;
+}
+
+.about__image {
+	z-index: 500;
+	width: 30%;
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: .2s ease-in all;
+}
+
+.about__image img:hover {
+	width: 105%;
+	height: 105%;
+	object-fit: cover;
 }
 
 @media (max-width: 768px) {
