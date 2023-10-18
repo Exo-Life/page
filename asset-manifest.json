@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/page/static/css/main.c6d931dc.chunk.css",
-    "main.js": "/page/static/js/main.56915a02.chunk.js",
-    "main.js.map": "/page/static/js/main.56915a02.chunk.js.map",
-    "runtime~main.js": "/page/static/js/runtime~main.cb56afc7.js",
-    "runtime~main.js.map": "/page/static/js/runtime~main.cb56afc7.js.map",
-    "static/js/2.c24fb992.chunk.js": "/page/static/js/2.c24fb992.chunk.js",
-    "static/js/2.c24fb992.chunk.js.map": "/page/static/js/2.c24fb992.chunk.js.map",
-    "static/js/3.57b001d4.chunk.js": "/page/static/js/3.57b001d4.chunk.js",
-    "static/js/3.57b001d4.chunk.js.map": "/page/static/js/3.57b001d4.chunk.js.map",
+    "main.css": "/page/static/css/main.315b3f37.chunk.css",
+    "main.js": "/page/static/js/main.93f92a00.chunk.js",
+    "main.js.map": "/page/static/js/main.93f92a00.chunk.js.map",
+    "runtime~main.js": "/page/static/js/runtime~main.fdcef436.js",
+    "runtime~main.js.map": "/page/static/js/runtime~main.fdcef436.js.map",
+    "static/js/2.1c1b92aa.chunk.js": "/page/static/js/2.1c1b92aa.chunk.js",
+    "static/js/2.1c1b92aa.chunk.js.map": "/page/static/js/2.1c1b92aa.chunk.js.map",
+    "static/js/3.7ebd281e.chunk.js": "/page/static/js/3.7ebd281e.chunk.js",
+    "static/js/3.7ebd281e.chunk.js.map": "/page/static/js/3.7ebd281e.chunk.js.map",
     "index.html": "/page/index.html",
-    "precache-manifest.b739a12bc963ffc60476a7addec4ae92.js": "/page/precache-manifest.b739a12bc963ffc60476a7addec4ae92.js",
+    "precache-manifest.18523dfb6f8b559516388505f8787f32.js": "/page/precache-manifest.18523dfb6f8b559516388505f8787f32.js",
     "service-worker.js": "/page/service-worker.js",
-    "static/css/main.c6d931dc.chunk.css.map": "/page/static/css/main.c6d931dc.chunk.css.map",
+    "static/css/main.315b3f37.chunk.css.map": "/page/static/css/main.315b3f37.chunk.css.map",
+    "static/media/exo-protesis.png": "/page/static/media/exo-protesis.f54f6ba8.png",
     "static/media/logo.png": "/page/static/media/logo.63bef7be.png",
-    "static/media/product_tr.png": "/page/static/media/product_tr.b173ebef.png",
-    "static/media/protesis.jpg": "/page/static/media/protesis.f9c54ec9.jpg"
+    "static/media/mano_protesis.png": "/page/static/media/mano_protesis.e5aa9923.png",
+    "static/media/rock.png": "/page/static/media/rock.829f2891.png"
   }
 }
